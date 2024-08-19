@@ -11,7 +11,7 @@ int main() {
     printf("Digite a segunda nota: ");
     scanf("%lf", &nota2);
     printf("Digite a terceira nota: ");
-    scanf("%lf", &nota2);
+    scanf("%lf", &nota3);
 
     mediaFinal = (2 * nota1) + (3 * nota2) + (5 * nota3) / 10;
     printf("\nMEDIA FINAL = %.1lf\n", mediaFinal);
